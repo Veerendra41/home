@@ -728,5 +728,15 @@
     </footer>
 
     <script src="script.js"></script>
+
+    <!-- Add EmailJS SDK before script.js -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/@emailjs/browser@3/dist/email.min.js"></script>
+<script type="text/javascript">
+    (function(){
+        emailjs.init("9sRDAEy3DLIW4BLEl"); // Replace with your public key
+    })();
+</script>
+<script src="script.js"></script>
+
 </body>
 </html>
