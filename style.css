@@ -829,13 +829,13 @@ section {
 .contact-item {
     display: flex;
     gap: 20px;
-    align-items: flex-start;
+    align-items: center;
 }
 
 .contact-item i {
     font-size: 1.8rem;
     color: var(--primary-color);
-    margin-top: 5px;
+    min-width: 30px;
 }
 
 .contact-item h4 {
